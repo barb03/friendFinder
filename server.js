@@ -12,6 +12,9 @@ app.use(bodyParser.raw({type: "application/vnd.custom-type"}))
 
 app.use(bodyParser.text({type: "text/html"}))
 
+//added for images
+app.use(express.static(path.join("app","public")));
+
 require("./app/routing/apiRoutes.js")(app);
 require("./app/routing/htmlRoutes.js")(app);
 
