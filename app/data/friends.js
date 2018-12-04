@@ -51,14 +51,14 @@ var friends = [
         name:"Goofy",
         photo:"../images/Goofy.gif",
         scores:[            
-            '4',
+            '1',
             '4',
             '2',
             '3',
             '2',
-            '2',
+            '1',
             '3',
-            '5',
+            '2',
             '2',
             '1'
         ]
